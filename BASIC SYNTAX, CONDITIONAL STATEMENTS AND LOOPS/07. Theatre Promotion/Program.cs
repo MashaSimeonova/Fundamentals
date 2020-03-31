@@ -8,7 +8,7 @@ namespace _07._Theatre_Promotion
         {
             string typeOfDay = Console.ReadLine();
             int age = int.Parse(Console.ReadLine());
-            double price = 0;
+            int price = 0;
 
             if (age > 0 && age <= 18)
             {
@@ -26,7 +26,7 @@ namespace _07._Theatre_Promotion
                     default:
                         break;
                 }
-                Console.WriteLine(price + "$");
+                Console.WriteLine($"{price}$");
             }
             else if (age > 18 && age <=64)
             {
@@ -44,7 +44,7 @@ namespace _07._Theatre_Promotion
                     default:
                         break;
                 }
-                Console.WriteLine(price + "$");
+                Console.WriteLine($"{price}$");
             }
             else if (age > 64 && age<=122)
             {
@@ -62,7 +62,7 @@ namespace _07._Theatre_Promotion
                     default:
                         break;
                 }
-                Console.WriteLine(price+"$");
+                Console.WriteLine($"{price}$");
             }
             else
             {

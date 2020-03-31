@@ -6,7 +6,16 @@ namespace _09._Sum_of_Odd_Numbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n = int.Parse(Console.ReadLine());
+
+            int sum = 0;
+            
+            for (int i = 1; i <= n+n ; i+=2)
+            {
+                sum += i;
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("Sum: "+sum);
         }
     }
 }

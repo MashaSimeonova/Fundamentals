@@ -6,7 +6,10 @@ namespace _08._Divisible_by_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int i = 3; i <= 100; i+=3)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
