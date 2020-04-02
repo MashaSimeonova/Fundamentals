@@ -6,7 +6,22 @@ namespace _08._Triangle_of_Numbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n = int.Parse(Console.ReadLine());
+
+            
+
+            for (int row = 1; row <= n; row++)
+            {
+
+                for (int cows = 1; cows <= row; cows++)
+                {
+                    
+
+                    Console.Write(row + " ");
+                   
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
